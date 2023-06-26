@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         caches.open('nina-caches').then(function(cache) {
             let link = document.getElementsByTagName('link');
             let script = document.getElementsByTagName('script');
-            let img = document.getElementsByTagName('img')
+            let img = document.getElementsByTagName('img');
             let extensions = ['.css', '.js', '.webp'];
             let filesToCache = [];
 
