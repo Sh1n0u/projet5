@@ -359,6 +359,6 @@ input[type="submit"] {
 }
 
 .carousel-item img {
-	width: 1903px;
-	height: 880px;
+	width: 100%;
+	height: auto;
 }
