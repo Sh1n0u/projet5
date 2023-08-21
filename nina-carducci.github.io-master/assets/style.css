@@ -359,6 +359,21 @@ input[type="submit"] {
 }
 
 .carousel-item img {
-	width: 100%;
-	height: auto;
+	width: 1903px;
+	height: 880px;
 }
+
+/* Réduire la largeur des images du carrousel pour les écrans plus petits */
+@media (max-width: 768px) {
+	.carousel-item img {
+	  width: 100%;
+	  height: auto;
+	}
+  }
+
+  /* Ajuster la hauteur des images du carrousel pour les écrans très petits */
+  @media (max-width: 576px) {
+	.carousel-item img {
+	  height: 300px; /* Ajustez cette valeur en fonction de vos besoins */
+	}
+  }
